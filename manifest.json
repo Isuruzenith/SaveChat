@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Chat Exporter",
+  "version": "1.0",
+  "description": "Exports your Gemini chat conversation to a Markdown (.md) file.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_title": "Export Gemini Chat"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
