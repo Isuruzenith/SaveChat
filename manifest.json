@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Gemini Chat Exporter",
-  "version": "1.0",
-  "description": "Exports your Gemini chat conversation to a Markdown (.md) file.",
+  "name": "AI Chat Exporter",
+  "version": "1.2",
+  "description": "Exports your Gemini, Claude, or Grok chat conversation to a Markdown (.md) file.",
   "permissions": [
     "scripting",
     "activeTab"
   ],
   "action": {
-    "default_title": "Export Gemini Chat"
+    "default_title": "Export AI Chat"
   },
   "background": {
     "service_worker": "background.js"
