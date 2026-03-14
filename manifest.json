@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "AI Chat Exporter",
-  "version": "1.1",
-  "description": "Exports your Gemini or Claude chat conversation to a Markdown (.md) file.",
+  "version": "1.2",
+  "description": "Exports your Gemini, Claude, or Grok chat conversation to a Markdown (.md) file.",
   "permissions": [
     "scripting",
     "activeTab"

@@ -14,7 +14,12 @@ chrome.action.onClicked.addListener((tab) => {
       target: { tabId: tab.id },
       files: ["claude_content_script.js"]
     });
+  } else if (tab.url.startsWith("https://grok.com/")) {
+    chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      files: ["grok_content_script.js"]
+    });
   } else {
-    console.log("AI Chat Exporter: This extension only works on gemini.google.com or claude.ai");
+    console.log("AI Chat Exporter: This extension only works on gemini.google.com, claude.ai, or grok.com");
   }
 });
